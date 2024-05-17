@@ -58,5 +58,11 @@ sustituyeImagenes();
 
 //PREMIUM
 //7.Cambia el fondo de todos los infocard-lg-data text-muted para todos los Pokimon voladores itype flying
+const cambioBackgroundColor2 = () => {
+    let flying = document.querySelectorAll('.infocard-lg-data.text-muted .itype.flying');
+    console.log(flying);
+    flying.forEach((element) => element.style.backgroundColor = 'blue');
 
+};
 
+cambioBackgroundColor2();
